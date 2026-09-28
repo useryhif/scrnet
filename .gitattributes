@@ -1,0 +1,9 @@
+# Normalise line endings in the repository, independent of the local
+# core.autocrlf setting, so the history stays clean across platforms.
+* text=auto eol=lf
+
+# Images must be stored verbatim.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
